@@ -1,0 +1,20 @@
+.banner-section {
+    padding: 100px 0;
+}
+
+.hero-text {
+color: tomato;
+}
+
+.banner-section button{
+    border: 1px solid tomato;
+    border-radius: 6px;
+    padding: 10px 20px;
+    color: tomato;
+    background: transparent;
+}
+
+.banner-section button:hover {
+    color: white;
+    background-color: tomato;
+}

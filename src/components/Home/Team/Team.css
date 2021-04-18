@@ -1,0 +1,10 @@
+.team-section {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.team-section h2 {
+    color: tomato;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}

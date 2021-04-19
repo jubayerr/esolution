@@ -1,6 +1,8 @@
 import React from 'react';
 import './Banner.css';
 import BannerImg from '../../../images/banner-image.jpg'
+import ButterflyImg from '../../../images/butterfly.png'
+
 
 const Banner = () => {
     return (
@@ -13,7 +15,10 @@ const Banner = () => {
                         <button>See More</button>
                     </div>
                     <div className="col-md-6">
+
                         <img src={BannerImg} className="img-fluid" alt="Banner Image" />
+                        <img src={ButterflyImg} className="img-fluid butterfly" alt="Banner Image" />
+
                     </div>
                 </div>
             </div>

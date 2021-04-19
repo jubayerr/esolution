@@ -6,8 +6,14 @@ import './Dashboard.css';
 import { UserContext } from '../../../App';
 import { useForm } from "react-hook-form";
 import { Link } from 'react-router-dom';
+import Payment from '../Payment/Payment';
+
+
 
 const Dashboard = () => {
+
+
+
     const [loggedInUser, setLoggedInUser] = useContext(UserContext)
     const { name, email } = loggedInUser
     // console.log(loggedInUser);
@@ -56,14 +62,14 @@ const Dashboard = () => {
             <div className="dashboard">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-3">
+                        <div className="col-md-2">
                             <h2>Menu</h2>
                             <ul>
                                 <li><Link to="/dashboard/orders">Order List</Link></li>
                                 <li><Link to="/dashboard/addReviews">Give Riview</Link></li>
                             </ul>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-5">
                             <p className="lead">Your service will be <strong>${services.price}</strong></p>
                             <form onSubmit={handleSubmit(onSubmit)}>
 
@@ -88,8 +94,9 @@ const Dashboard = () => {
                                 </div>
                             </form>
                         </div>
-                        <div className="col-md-3">
-
+                        <div className="col-md-5">
+                            <h2 className="pb-5">Payment</h2>
+                            <Payment />
                         </div>
                     </div>
                 </div>

@@ -7,6 +7,7 @@ import Team from '../Team/Team';
 import Reviews from '../Reviews/Reviews';
 import Footer from '../../Shared/Footer/Footer';
 import Contact from '../../Contact/Contact';
+import About from '../About/About';
 
 
 
@@ -16,6 +17,7 @@ const Home = () => {
             <Header />
             <Banner />
             <Service />
+            <About />
             <Team />
             <Reviews />
             <Contact />

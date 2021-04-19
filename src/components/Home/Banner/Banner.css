@@ -1,4 +1,5 @@
 .banner-section {
+    position: relative;
     padding: 100px 0;
 }
 
@@ -18,3 +19,31 @@ color: tomato;
     color: white;
     background-color: tomato;
 }
+
+.banner-section .butterfly {
+    height: 100px;
+    display: inline;
+    position: absolute;
+    top: 8%;
+    left: 44%;
+    opacity: 0.9;
+}
+
+.banner-section .butterfly {
+    animation: shake 10s;
+    animation-iteration-count: infinite;
+}
+
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }

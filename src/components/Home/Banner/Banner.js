@@ -1,7 +1,7 @@
 import React from 'react';
 import './Banner.css';
 import BannerImg from '../../../images/banner-image.jpg'
-import ButterflyImg from '../../../images/butterfly.png'
+// import ButterflyImg from '../../../images/butterfly.png'
 
 
 const Banner = () => {
@@ -17,7 +17,7 @@ const Banner = () => {
                     <div className="col-md-6">
 
                         <img src={BannerImg} className="img-fluid" alt="Banner Image" />
-                        <img src={ButterflyImg} className="img-fluid butterfly" alt="Banner Image" />
+                        {/* <img src={ButterflyImg} className="img-fluid butterfly" alt="Banner Image" /> */}
 
                     </div>
                 </div>

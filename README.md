@@ -16,14 +16,11 @@ eSolution (https://esolution23.netlify.app/)
 
 ## Basic Features
 
-Home page, Services, Team, Reviews, Header, Menu, Footer
+Home page, Services, Team, Reviews, Header, Menu, Footer, Payments
 
 ## Functional Features
 
 Services section is dynamic, all services are loaded from server by api calling.
 Admin can add new services, update and delete.
 Users can review of services, order services and view orderlist.
-
-## Will be updated
-
-Project is not completed yet. So It will be updated soon.
+Users can submit order and payments with stripe.
